@@ -1,0 +1,235 @@
+:root {
+    --secondary-font: "Raleway", sans-serif;
+    --primary-white-color: #ffffff;
+    --primary-black-color: #212121;
+    --navyblue: #2E2F42;
+    --iris: #4D5AE5;
+    --slate: #434455;
+    --cloud: #F4F4FD;
+    --ocean: #404BBF;
+  
+
+    --primary-font: "Poppins", sans-serif;
+    --title-font: "Oswald", sans-serif;
+    --primary-black-color: #212121;
+    
+    --primary-accent-color: #03a9f4;
+    --secondary-accent-color: #0288d1;
+    --active-link-color: #f44336;
+}
+
+body {
+    font-family:  'Roboto', sans-serif;
+    color: var(--primary-black-color);
+    background-color: var(--primary-white-color);
+    
+
+}
+
+.link {
+    text-decoration: none;
+        color: currentColor;
+}
+
+
+.header {}
+
+
+.logo-link {
+        font-family: var(--secondary-font)
+        color: var(--iris);
+        font-size: 18px;
+            font-weight: 800;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        
+}
+
+.logo-dark {
+        color: var(--navyblue);
+}
+.logo-light {
+        color: var(--cloud);   
+}
+
+.header-nav {}
+
+.header-nav-list {}
+
+.header-nav-list-item {
+        color: var(--navyblue);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.address {}
+
+.address-list {}
+
+.address-list-item {
+        color: var(--slate);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.main {}
+
+.main-hero {
+    background-color: var(--navyblue);
+}
+
+.main-hero-title {
+    color: var(--primary-white-color);
+    text-align: center;
+    font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+
+}
+
+.main-hero-button {
+    font-size: inherit;
+    background-color: var(--iris);
+    color: var(--primary-white-color);
+}
+
+.main-skills {}
+
+
+.main-skills-list {}
+
+.main-skills-list-item {
+    
+}
+
+.main-skills-list-item-title {
+    color: var(--navyblue);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.main-skills-list-item-text {
+    color: var(--slate)
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.main-doing {}
+
+.main-doing-title {
+        color: var(--navyblue);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.main-doing-list {}
+
+.main-doing-list-item {}
+
+.main-team {}
+
+.main-team-title {
+        color: var(--navyblue);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.main-team-list {}
+
+.main-team-list-item {}
+
+.main-team-list-item-title {
+        color: var(--navyblue);
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.main-team-list-item-text {
+        color: var(--slate);
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.footer {}
+
+
+.footer-text {
+        color: var(--cloud);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+
+.main-buttons {}
+
+.main-buttons-list {}
+
+.main-buttons-list-all {
+        font-family: inherit;
+        color: var(--primary-white-color)
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background: var(--ocean);
+
+}
+
+
+.main-buttons-list-item {
+        font-family: inherit;
+        color: var(--iris);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background: var(--cloud);
+}
+
+.main-tmbl {}
+
+
+.main-tmbl-list {}
+
+.main-tmbl-list-item {}
+
+.main-tmbl-list-item-title {
+        color: var(--navyblue);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.main-tmbl-list-item-text {
+        color: var(--slate);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
