@@ -7,15 +7,6 @@
     --slate: #434455;
     --cloud: #F4F4FD;
     --ocean: #404BBF;
-  
-
-    --primary-font: "Poppins", sans-serif;
-    --title-font: "Oswald", sans-serif;
-    --primary-black-color: #212121;
-    
-    --primary-accent-color: #03a9f4;
-    --secondary-accent-color: #0288d1;
-    --active-link-color: #f44336;
 }
 
 body {
@@ -27,18 +18,25 @@ body {
 }
 
 .link {
-    text-decoration: none;
+        color: var(--navyblue);
+        text-decoration: none;
         color: currentColor;
 }
+ .link:hover {
+    color: var(--ocean);
+ }
+ .link:focus {
+    color: var(--ocean);
+ }
 
 
 .header {}
 
 
 .logo-link {
-        font-family: var(--secondary-font)
-        color: var(--iris);
-        font-size: 18px;
+            font-family: var(--secondary-font)
+            color: var(--iris);
+            font-size: 18px;
             font-weight: 800;
             line-height: 1.17;
             letter-spacing: 0.03em;
@@ -93,9 +91,19 @@ body {
 }
 
 .main-hero-button {
-    font-size: inherit;
-    background-color: var(--iris);
-    color: var(--primary-white-color);
+        font-size: inherit;
+        background-color: var(--iris);
+        color: var(--primary-white-color);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+}
+.main-hero-button:hover {
+    background-color: var(--ocean);
+}
+.main-hero-button:focus {
+    background-color: var(--ocean);
 }
 
 .main-skills {}
@@ -188,27 +196,34 @@ body {
 .main-buttons-list {}
 
 .main-buttons-list-all {
-        font-family: inherit;
-        color: var(--primary-white-color)
-        text-align: center;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        background: var(--ocean);
+        
 
 }
 
+.main-buttons-list-item-1 {
+    font-family: inherit;
+    text-align: center;
+    color: var(--primary-white-color) 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: var(--ocean);
+}
 
 .main-buttons-list-item {
-        font-family: inherit;
-        color: var(--iris);
-        text-align: center;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        background: var(--cloud);
+        
+}
+
+.main-buttons-list-item-2 {
+    font-family: inherit;
+    color: var(--iris);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: var(--cloud);
 }
 
 .main-tmbl {}
