@@ -43,7 +43,16 @@ body {
             text-transform: uppercase;
         
 }
+.logo-first {
+        color: var(--iris);
+        font-family: var(--secondary-font) 
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 
+}
 .logo-dark {
         color: var(--navyblue);
 }
@@ -180,7 +189,9 @@ body {
         letter-spacing: 0.02em;
 }
 
-.footer {}
+.footer {
+    background-color: var(--navyblue);
+}
 
 
 .footer-text {
