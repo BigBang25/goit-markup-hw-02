@@ -3,6 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <!--  -->
   <!--  -->
@@ -15,24 +22,24 @@
       </a>
 
       <nav class="header-nav">
-        <ul>
-          <li>
+        <ul class="header-nav-list">
+          <li class="header-nav-list-item">
             <a href="./index.html">Studio</a>
           </li>
-          <li>
+          <li class="header-nav-list-item">
             <a href="./portfolio.html">Portfolio</a>
           </li>
-          <li>
+          <li class="header-nav-list-item">
             <a href="#">Contacts</a>
           </li>
         </ul>
       </nav>
       <address class="address">
-        <ul>
-          <li>
+        <ul class="address-list">
+          <li class="address-list-item">
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
+          <li class="address-list-item">
             <a href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
@@ -40,32 +47,36 @@
     </header>
 
     <!-- main -->
-    <main>
+    <main class="main">
       <!-- Buttons -->
-      <section class="buttons">
-        <h1>Lorem, ipsum.</h1>
+      <section class="main-buttons">
+        <h1 class="main-buttons-title">Lorem, ipsum.</h1>
 
-        <ul class="list">
-          <li class="buttons-list-pic"><button type="button">All</button></li>
-          <li class="buttons-list-pic">
+        <ul class="main-buttons-list">
+          <li class="main-buttons-list-item">
+            <button type="button">All</button>
+          </li>
+          <li class="main-buttons-list-item">
             <button type="button">Web Site</button>
           </li>
-          <li class="buttons-list-pic"><button type="button">App</button></li>
-          <li class="buttons-list-pic">
+          <li class="main-buttons-list-item">
+            <button type="button">App</button>
+          </li>
+          <li class="main-buttons-list-item">
             <button type="button">Design</button>
           </li>
-          <li class="buttons-list-pic">
+          <li class="main-buttons-list-item">
             <button type="button">Marketing</button>
           </li>
         </ul>
       </section>
 
       <!-- Tmbl -->
-      <section class="tmbl">
-        <h2>Lorem, ipsum.</h2>
+      <section class="main-tmbl">
+        <h2 class="main-tmbl-title">Lorem, ipsum.</h2>
 
-        <ul class="list">
-          <li>
+        <ul class="main-tmbl-list">
+          <li class="main-tmbl-list-item">
             <a href="#">
               <img
                 src="./images/tmb/img1.jpg"
@@ -74,11 +85,13 @@
                 height="300"
               />
             </a>
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <h3 class="main-tmbl-list-item-title">
+              Banking App Interface Concept
+            </h3>
+            <p class="main-tmbl-list-item-text">App</p>
           </li>
 
-          <li>
+          <li class="main-tmbl-list-item">
             <a href="#">
               <img
                 src="./images/tmb/img2.jpg"
@@ -87,11 +100,11 @@
                 height="300"
               />
             </a>
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="main-tmbl-list-item-title">Cashless Payment</h3>
+            <p class="main-tmbl-list-item-text">Marketing</p>
           </li>
 
-          <li>
+          <li class="main-tmbl-list-item">
             <a href="#">
               <img
                 src="./images/tmb/img3.jpg"
@@ -100,13 +113,13 @@
                 height="300"
               />
             </a>
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="main-tmbl-list-item-title">Meditation App</h3>
+            <p class="main-tmbl-list-item-text">App</p>
           </li>
         </ul>
 
-        <ul class="list">
-          <li>
+        <ul class="main-tmbl-list">
+          <li class="main-tmbl-list-item">
             <a href="#">
               <img
                 src="./images/tmb/img4.jpg"
@@ -115,11 +128,11 @@
                 height="300"
               />
             </a>
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="main-tmbl-list-item-title">Taxi Service</h3>
+            <p class="main-tmbl-list-item-text">Marketing</p>
           </li>
 
-          <li>
+          <li class="main-tmbl-list-item">
             <a href="#">
               <img
                 src="./images/tmb/img5.jpg"
@@ -128,11 +141,11 @@
                 height="300"
               />
             </a>
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="main-tmbl-list-item-title">Screen Illustrations</h3>
+            <p class="main-tmbl-list-item-text">Design</p>
           </li>
 
-          <li>
+          <li class="main-tmbl-list-item">
             <a href="#">
               <img
                 src="./images/tmb/img6.jpg"
@@ -141,13 +154,13 @@
                 height="300"
               />
             </a>
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="main-tmbl-list-item-title">Online Courses</h3>
+            <p class="main-tmbl-list-item-text">Marketing</p>
           </li>
         </ul>
 
-        <ul class="list">
-          <li>
+        <ul class="main-tmbl-list">
+          <li class="main-tmbl-list-item">
             <a href="#">
               <img
                 src="./images/tmb/img7.jpg"
@@ -156,11 +169,11 @@
                 height="300"
               />
             </a>
-            <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
+            <h3 class="main-tmbl-list-item-title">Instagram Stories Concept</h3>
+            <p class="main-tmbl-list-item-text">Design</p>
           </li>
 
-          <li>
+          <li class="main-tmbl-list-item">
             <a href="#">
               <img
                 src="./images/tmb/img8.jpg"
@@ -169,11 +182,11 @@
                 height="300"
               />
             </a>
-            <h3>Organic Food</h3>
-            <p>Web Site</p>
+            <h3 class="main-tmbl-list-item-title">Organic Food</h3>
+            <p class="main-tmbl-list-item-text">Web Site</p>
           </li>
 
-          <li>
+          <li class="main-tmbl-list-item">
             <a href="#">
               <img
                 src="./images/tmb/img9.jpg"
@@ -182,17 +195,19 @@
                 height="300"
               />
             </a>
-            <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+            <h3 class="main-tmbl-list-item-title">Fresh Coffee</h3>
+            <p class="main-tmbl-list-item-text">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- footer -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
+    <footer class="footer">
+      <a href="./index.html" class="logo link"
+        >Web<span class="logo-light">Studio</span>
+      </a>
 
-      <p>
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
