@@ -11,17 +11,22 @@
 
 body {
     font-family:  'Roboto', sans-serif;
-    color: var(--primary-black-color);
+    color: var(--slate);
     background-color: var(--primary-white-color);
     
 
 }
 
-.link {
-        color: var(--navyblue);
+.link {L
+        color: ;
         text-decoration: none;
         color: currentColor;
 }
+
+.list {
+        list-style: none;
+}
+
  .link:hover {
     color: var(--ocean);
  }
@@ -33,19 +38,9 @@ body {
 .header {}
 
 
-.logo-link {
-            font-family: var(--secondary-font)
-            color: var(--iris);
-            font-size: 18px;
-            font-weight: 800;
-            line-height: 1.17;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-        
-}
 .logo-first {
+        font-family: "Raleway", sans-serif;
         color: var(--iris);
-        font-family: var(--secondary-font) 
         font-size: 18px;
         font-weight: 800;
         line-height: 1.17;
@@ -54,10 +49,14 @@ body {
 
 }
 .logo-dark {
+        font-family: "Raleway", sans-serif;
         color: var(--navyblue);
+        text-transform: uppercase
 }
 .logo-light {
-        color: var(--cloud);   
+        font-family: "Raleway", sans-serif;
+        color: var(--cloud);
+        text-transform: uppercase
 }
 
 .header-nav {}
@@ -72,13 +71,23 @@ body {
         letter-spacing: 0.02em;
 }
 
-.address {}
+.header-nav-list-item:hover {
+        color: var(--ocean);
+}
+.header-nav-list-item:focus {
+        color: var(--ocean);
+}
 
-.address-list {}
+.address {
+        font-style: normal;
+}
+
+.list {}
 
 .address-list-item {
         color: var(--slate);
         font-size: 16px;
+        font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -100,13 +109,14 @@ body {
 }
 
 .main-hero-button {
-        font-size: inherit;
+        font-family: "Roboto", sans-serif;
         background-color: var(--iris);
         color: var(--primary-white-color);
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        cursor: pointer;
 }
 .main-hero-button:hover {
     background-color: var(--ocean);
@@ -125,17 +135,16 @@ body {
 }
 
 .main-skills-list-item-title {
-    color: var(--navyblue);
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
+        color: var(--navyblue);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
         letter-spacing: 0.02em;
 }
 
 .main-skills-list-item-text {
-    color: var(--slate)
+        color: var(--slate);
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -156,7 +165,9 @@ body {
 
 .main-doing-list-item {}
 
-.main-team {}
+.main-team {
+        background-color: var(--cloud);
+}
 
 .main-team-title {
         color: var(--navyblue);
@@ -168,9 +179,13 @@ body {
         text-transform: capitalize;
 }
 
-.main-team-list {}
+.main-team-list {
 
-.main-team-list-item {}
+}
+
+.main-team-list-item {
+        background-color: var(--primary-white-color);
+}
 
 .main-team-list-item-title {
         color: var(--navyblue);
@@ -211,23 +226,32 @@ body {
 
 }
 
-.main-buttons-list-item-1 {
-    font-family: inherit;
+.main-buttons-list-item-fir {
+    font-family: "Roboto", sans-serif;
     text-align: center;
     color: var(--primary-white-color) 
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background: var(--ocean);
+     background-color: var(--iris);
+     cursor: pointer;
 }
 
+main-buttons-list-item-fir:hover {
+        color: #FFFFFF;
+        background-color: #404BBF;
+}
+main-buttons-list-item-fir:focus {
+        color: #FFFFFF;
+        background-color: #404BBF;
+}
 .main-buttons-list-item {
         
 }
 
-.main-buttons-list-item-2 {
-    font-family: inherit;
+.main-buttons-list-item-sec {
+        font-family: "Roboto", sans-serif;
     color: var(--iris);
     text-align: center;
     font-size: 16px;
@@ -235,6 +259,17 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: var(--cloud);
+    cursor: pointer;
+}
+
+.main-buttons-list-item-sec:hover {
+        color: #FFFFFF;
+        background-color: #404BBF;
+}
+.main-buttons-list-item-sec:focus {
+        color: #FFFFFF;
+        background-color: #404BBF;
+
 }
 
 .main-tmbl {}
