@@ -238,11 +238,11 @@ body {
      cursor: pointer;
 }
 
-main-buttons-list-item-fir:hover {
+.main-buttons-list-item-fir:hover {
         color: #FFFFFF;
         background-color: #404BBF;
 }
-main-buttons-list-item-fir:focus {
+.main-buttons-list-item-fir:focus {
         color: #FFFFFF;
         background-color: #404BBF;
 }
