@@ -1,24 +1,24 @@
 :root {
-    --secondary-font: "Raleway", sans-serif;
-    --primary-white-color: #ffffff;
-    --primary-black-color: #212121;
-    --navyblue: #2E2F42;
-    --iris: #4D5AE5;
-    --slate: #434455;
-    --cloud: #F4F4FD;
-    --ocean: #404BBF;
+        --secondary-font: "Raleway", sans-serif;
+        --primary-white-color: #ffffff;
+        --primary-black-color: #212121;
+        --navyblue: #2E2F42;
+        --iris: #4D5AE5;
+        --slate: #434455;
+        --cloud: #F4F4FD;
+        --ocean: #404BBF;
 }
 
 body {
-    font-family:  'Roboto', sans-serif;
-    color: var(--slate);
-    background-color: var(--primary-white-color);
-    
+        font-family: 'Roboto', sans-serif;
+        color: var(--slate);
+        background-color: var(--primary-white-color);
+
 
 }
 
-.link {L
-        color: ;
+.link {
+        L color: ;
         text-decoration: none;
         color: currentColor;
 }
@@ -27,12 +27,13 @@ body {
         list-style: none;
 }
 
- .link:hover {
-    color: var(--ocean);
- }
- .link:focus {
-    color: var(--ocean);
- }
+.link:hover {
+        color: var(--ocean);
+}
+
+.link:focus {
+        color: var(--ocean);
+}
 
 
 .header {}
@@ -48,11 +49,13 @@ body {
         text-transform: uppercase;
 
 }
+
 .logo-dark {
         font-family: "Raleway", sans-serif;
         color: var(--navyblue);
         text-transform: uppercase
 }
+
 .logo-light {
         font-family: "Raleway", sans-serif;
         color: var(--cloud);
@@ -74,6 +77,7 @@ body {
 .header-nav-list-item:hover {
         color: var(--ocean);
 }
+
 .header-nav-list-item:focus {
         color: var(--ocean);
 }
@@ -95,17 +99,16 @@ body {
 .main {}
 
 .main-hero {
-    background-color: var(--navyblue);
+        background-color: var(--navyblue);
 }
 
 .main-hero-title {
-    color: var(--primary-white-color);
-    text-align: center;
-    font-size: 56px;
+        color: var(--primary-white-color);
+        text-align: center;
+        font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
-
 }
 
 .main-hero-button {
@@ -118,11 +121,13 @@ body {
         letter-spacing: 0.04em;
         cursor: pointer;
 }
+
 .main-hero-button:hover {
-    background-color: var(--ocean);
+        background-color: var(--ocean);
 }
+
 .main-hero-button:focus {
-    background-color: var(--ocean);
+        background-color: var(--ocean);
 }
 
 .main-skills {}
@@ -130,9 +135,7 @@ body {
 
 .main-skills-list {}
 
-.main-skills-list-item {
-    
-}
+.main-skills-list-item {}
 
 .main-skills-list-item-title {
         color: var(--navyblue);
@@ -179,9 +182,7 @@ body {
         text-transform: capitalize;
 }
 
-.main-team-list {
-
-}
+.main-team-list {}
 
 .main-team-list-item {
         background-color: var(--primary-white-color);
@@ -205,7 +206,7 @@ body {
 }
 
 .footer {
-    background-color: var(--navyblue);
+        background-color: var(--navyblue);
 }
 
 
@@ -221,51 +222,48 @@ body {
 
 .main-buttons-list {}
 
-.main-buttons-list-all {
-        
-
-}
+.main-buttons-list-all {}
 
 .main-buttons-list-item-fir {
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    color: var(--primary-white-color) 
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-     background-color: var(--iris);
-     cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        color: var(--primary-white-color) font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color: var(--iris);
+        cursor: pointer;
 }
 
 .main-buttons-list-item-fir:hover {
         color: #FFFFFF;
         background-color: #404BBF;
 }
+
 .main-buttons-list-item-fir:focus {
         color: #FFFFFF;
         background-color: #404BBF;
 }
-.main-buttons-list-item {
-        
-}
+
+.main-buttons-list-item {}
 
 .main-buttons-list-item-sec {
         font-family: "Roboto", sans-serif;
-    color: var(--iris);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    background: var(--cloud);
-    cursor: pointer;
+        color: var(--iris);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background: var(--cloud);
+        cursor: pointer;
 }
 
 .main-buttons-list-item-sec:hover {
         color: #FFFFFF;
         background-color: #404BBF;
 }
+
 .main-buttons-list-item-sec:focus {
         color: #FFFFFF;
         background-color: #404BBF;
