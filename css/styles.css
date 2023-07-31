@@ -13,12 +13,9 @@ body {
         font-family: 'Roboto', sans-serif;
         color: var(--slate);
         background-color: var(--primary-white-color);
-
-
 }
 
 .link {
-        L color: ;
         text-decoration: none;
         color: currentColor;
 }
@@ -96,9 +93,7 @@ body {
         letter-spacing: 0.02em;
 }
 
-.main {
-        
-}
+.main {}
 
 .main-hero {
         background-color: var(--navyblue);
@@ -229,12 +224,13 @@ body {
 .main-buttons-list-item-fir {
         font-family: "Roboto", sans-serif;
         text-align: center;
-        color: var(--primary-white-color) font-size: 16px;
+        background-color: var(--iris);
+        font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        background-color: var(--iris);
         cursor: pointer;
+        color: var(--primary-white-color);
 }
 
 .main-buttons-list-item-fir:hover {
